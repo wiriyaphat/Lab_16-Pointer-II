@@ -44,7 +44,7 @@ int main(){
 
 void randData(double *A,int N,int M){
 	for(int i = 0; i < N*M; i++){
-        A[i] = rand()%(N*M);
+        A[i] = rand()%101 / 100;
     }
 }
 
